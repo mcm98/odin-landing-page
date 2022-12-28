@@ -7,6 +7,11 @@ div {
 }
 
 
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 body {
     background-color: #1F2937;
     display: flex;
@@ -28,7 +33,6 @@ body {
     display: flex;
     margin-top: -9px;
     height: 80px;
-    border: 2px solid red;
 }
 
 .header-links {
@@ -40,20 +44,18 @@ body {
 }
 
 .header-links a {
-    color: #E5E7EB;
-    text-decoration: none;
     margin-top: 5px;
     font-size: 18px;
 }
 
 .content {
     display: flex;
+    flex-direction: column;
 }
 
 .first {
     display: flex;
     height: 450px;
-    border: 2px solid green;
     color: #F9FAF8;
     text-size: 48px;
     font-size: x-large;
@@ -94,8 +96,21 @@ button {
     color: #E5E7EB;
 }
 
-.second {
+.second, .fourth {
+    background-color: white;
+    margin-left: -9px;
+    width: 1347px;
+}
 
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+}
+
+.second h1 {
+    color: #1F2937;
 }
 
 .third {
