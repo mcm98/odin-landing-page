@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+div {
+    width: 100%;
+    border: 1px solid brown;
+    
+}
+
+
+body {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .first {
+    margin-left: -9px;
+}
+
+.logo {
+    padding: 20px;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 110px;
+}
+
+.header {
+    display: flex;
+    margin-top: -9px;
+    height: 80px;
+    border: 2px solid red;
+}
+
+.header-links {
+    display: flex;
+    margin-right: 130px;
+    padding: 20px;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.header-links a {
+    color: #E5E7EB;
+    text-decoration: none;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.content {
+    display: flex;
+}
+
+.first {
+    display: flex;
+    height: 450px;
+    border: 2px solid green;
+    color: #F9FAF8;
+    text-size: 48px;
+    font-size: x-large;
+}
+
+.first p {
+    width: 350px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.first h1 {
+    width: 300px;
+}
+
+.first-box {
+    padding: 20px;
+    margin-left: 110px;
+    margin-top: 30px;
+    width: 450px;
+}
+
+.first-image {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 230px;
+    background-color: grey;
+}
+
+.second {
+
+}
+
+.third {
+
+}
+
+.fourth {
+
+}
+
+.footer {
+
+}
