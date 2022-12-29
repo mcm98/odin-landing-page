@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-div {
+div, p {
     width: 100%;
-    border: 1px solid brown;
+    /*border: 1px solid brown;*/
     
 }
 
@@ -99,7 +99,7 @@ button {
 .second, .fourth {
     background-color: white;
     margin-left: -9px;
-    width: 1347px;
+    width: 1350px;
 }
 
 .second {
@@ -139,13 +139,81 @@ button {
 }
 
 .third {
+    display: flex;
+    background-color: #E5E7EB;
+    height: 410px;
+    width: 1350px;
+    margin-left: -9px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-style: italic;
+    width: 500px;
+}
+
+.quote > .attribution {
+    margin-left: 300px;
+    margin-top: 35px;
+    font-size: 24px;
 
 }
 
 .fourth {
+    display: flex;
+    background-color: #F9FAF8;
+    height: 380px;
+    justify-content: center;
+    align-items: center;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    background-color: #3882F6;
+    border-radius: 4%;
+    font-size: 24px;
+    color: #E5E7EB;
+    width: 800px;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
 
 }
 
-.footer {
+.action > div {
+    width: 350px;
+}
 
+.action > .action-sub {
+    font-size: 18px;
+}
+
+.button-2 {
+    display: flex;
+    width: 100px;
+    margin-left: -150px;
+}
+
+.button-2 > button {
+    border-radius: 4%;
+    border: 2px solid #E5E7EB;
+    align-self: center;
+}
+
+.footer {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > div {
+    width: 600px;
+    font-size: 18px;
+    color: #F9FAF8;
 }
